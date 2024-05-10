@@ -1,0 +1,13 @@
+[2024-05-10T03:31:05.596Z] [INFO]: MySQL Session store created
+[2024-05-10T03:31:05.600Z] [DEBUG]: Express app initialized and indexRouter attached to / route
+[2024-05-10T03:31:05.599Z] [DEBUG]: Session middleware initialized
+[2024-05-10T03:31:05.601Z] [INFO]: Attaching route /users
+[2024-05-10T03:31:05.600Z] [DEBUG]: Configurations attached to app.locals
+[2024-05-10T03:31:07.227Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:31:08.195Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:33:04.143Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:33:18.254Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:34:57.612Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:35:42.378Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:37:37.016Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
+[2024-05-10T03:39:25.383Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1

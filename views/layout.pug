@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title= config.siteTitle
+    meta(name='description', content=config.siteDescription)
+    meta(name='keywords', content=config.siteKeywords)
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/navbar.css')
+    link(rel='stylesheet', href='/stylesheets/footer.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js')
+  body
+    header
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        .container
+          a.navbar-brand(href='#')= config.siteTitle
+          button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+          #navbarSupportedContent.collapse.navbar-collapse
+            ul.navbar-nav.ml-auto
+              li.nav-item
+                a.nav-link(href='#') Home
+              li.nav-item
+                a.nav-link(href='#') About
+              li.nav-item
+                a.nav-link(href='#') Services
+              li.nav-item
+                a.nav-link(href='#') Contact
+    block content
+    
+    footer
+      p
+        a(href=config.copyrightSite, target="_blank")= config.copyrightText
+      p= 'Build Version: ' + config.buildVersion
+        

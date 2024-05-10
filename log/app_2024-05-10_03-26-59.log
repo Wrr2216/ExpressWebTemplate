@@ -1,0 +1,5 @@
+[2024-05-10T03:26:59.684Z] [INFO]: MySQL Session store created
+[2024-05-10T03:26:59.688Z] [DEBUG]: Session middleware initialized
+[2024-05-10T03:26:59.688Z] [DEBUG]: Configurations attached to app.locals
+[2024-05-10T03:26:59.690Z] [DEBUG]: Express app initialized and indexRouter attached to / route
+[2024-05-10T03:26:59.692Z] [INFO]: Attaching route /users

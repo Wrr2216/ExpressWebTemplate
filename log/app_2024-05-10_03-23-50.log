@@ -1,0 +1,6 @@
+[2024-05-10T03:23:50.054Z] [INFO]: MySQL Session store created
+[2024-05-10T03:23:50.057Z] [DEBUG]: Session middleware initialized
+[2024-05-10T03:23:50.059Z] [DEBUG]: Configurations attached to app.locals
+[2024-05-10T03:23:50.060Z] [DEBUG]: Express app initialized and indexRouter attached to / route
+[2024-05-10T03:23:50.061Z] [INFO]: Attaching route /users
+[2024-05-10T03:23:52.763Z] [ERROR]: 404 - Not Found - /favicon.ico - GET - ::ffff:127.0.0.1
